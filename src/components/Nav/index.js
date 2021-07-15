@@ -1,6 +1,5 @@
 import React from "react";
 import { Navbar, Container, Nav } from "react-bootstrap";
-import Contact from '../Contact';
 
 <Navbar bg="light" expand="lg">
     <Container>
