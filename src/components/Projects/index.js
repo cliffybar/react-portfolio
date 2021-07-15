@@ -1,10 +1,10 @@
 import React from "react";
 import Footer from "../Footer";
-import angelfish from "../../assets/images/angelfish";
-import boozey from "../../assets/images/boozey";
-import weatherdashboard from "../../assets/images/weather-dashboard";
-import passwordgenerator from "../../assets/images/passwordgenerator";
-import horiseon from "../../assets/images/horiseon";
+import angelfish from "../../assets/images/angelfish.png";
+import boozey from "../../assets/images/boozey.jpg";
+import weatherdashboard from "../../assets/images/weatherdashboard.jpg";
+import passwordgenerator from "../../assets/images/passwordgenerator.png";
+import horiseon from "../../assets/images/horiseon.png";
 
 const Projects = () => {
     const projects = [
