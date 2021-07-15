@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import Nav from '../Nav';
+import Navigate from '../Nav';
 import About from '../About';
 import Projects from '../Projects';
 import Contact from '../Contact';
@@ -30,7 +30,7 @@ function Home() {
 
     return (
         <div>
-            <Nav currentPage={currentPage} setCurrentPage={setCurrentPage} />
+            <Navigate currentPage={currentPage} setCurrentPage={setCurrentPage} />
             <div>
                 {writePage(currentPage)}
             </div>
